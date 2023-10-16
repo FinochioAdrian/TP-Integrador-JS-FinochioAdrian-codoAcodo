@@ -1,0 +1,18 @@
+.placeTime{
+   
+    
+
+    &__viewImage{
+        background-image: url('../../src/img/honolulu.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit:contain;
+        
+    }
+    &__detailsContainer{
+        background-color: #353A40;
+        color: white;
+        padding: 10px ;
+    }
+}
