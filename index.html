@@ -45,7 +45,7 @@
                 class="d-inline-block align-text-top"
               />
             </a>
-            <h5 class="d-inline-block me-3">Conf Bs As</h5>
+            <h5 class="d-inline-block me-3 text-light">Conf Bs As</h5>
           </div>
           <div
             class="col-md-5 ms-md-5 collapse navbar-collapse"
@@ -53,19 +53,19 @@
           >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#" aria-current="page"
-                  >La conferecia
+                <a class="nav-link active text-light" href="#conferencia" aria-current="page"
+                  >La conferencia
                   <span class="visually-hidden">(current)</span></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Los oradores</a>
+                <a class="nav-link text-secondary" href="#oradores">Los oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">El lugar y la fecha</a>
+                <a class="nav-link text-secondary" href="#placeTime">El lugar y la fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Conviértete en orador</a>
+                <a class="nav-link text-secondary" href="#takePart">Conviértete en orador</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-success" href="#">Comprar tickets</a>
@@ -94,9 +94,9 @@
                 esperamos!
               </p>
               <div class="d-flex justify-content-end gap-2">
-                <button type="button" class="btn btn-outline-light">
+                <a href="#takePart" class="btn btn-outline-light">
                   Quiero ser orador
-                </button>
+                </a>
                 <button type="button" class="btn btn-success">
                   Comprar tickets
                 </button>
@@ -106,7 +106,7 @@
         </div>
       </div>
       <!-- Oradores -->
-      <div class="cotainer-fluid oradores">
+      <div class="cotainer-fluid oradores" id="oradores">
         <div class="text-center my-2">
           <p class="mb-1 text-secondary">CONOCE A LOS</p>
           <h2>ORADORES</h2>
@@ -169,7 +169,7 @@
         </div>
       </div>
       <!-- El Lugar y La fecha -->
-      <div class="container-fluid placeTime">
+      <div class="container-fluid placeTime" id="placeTime">
         <div class="row">
           <div class="col-12 col-md-6 placeTime__viewImage"></div>
           <div class="col-12 col-md-6 placeTime__detailsContainer">
@@ -190,10 +190,65 @@
         </div>
       </div>
       <!-- Formulario Convierte en orador -->
-      <div class="container-fluid participa vh-100">hola</div>
+      <div class="container-fluid takePart d-flex justify-content-center my-3" id="takePart">
+        <form class="col-12 col-md-6">
+          <div class="text-center my-2">
+            <p class="mb-1 text-secondary">CONVIÉRTETE EN UN</p>
+            <h2>ORADOR</h2>
+            <p class="mb-1 text-secondary">
+              Anótate como un orador para dar una
+              <a
+                href="https://en.wikipedia.org/wiki/Lightning_talk"
+                target="_blank"
+                class="text-decoration-none text-secondary text-decoration-underline"
+                >charla ignite</a
+              >. Cuentanos de que quieres hablar!
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                placeholder="Nombre"
+                required
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                id="apellido"
+                placeholder="Apellido"
+                required
+              />
+            </div>
+          </div>
+          <div class="col my-3">
+            <textarea class="form-control"  name="talk-idea" id="talk-idea" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+            <div id="talk-idea__HelpBlock" class="form-text">
+              Recuerda incluir un titulo para tu charla.
+            </div>
+          </div>
+          <div class="col"><button type="none" class="col-12 btn btn-enviar ">Enviar</button></div>
+          
+        </form>
+      </div>
     </main>
-    <footer>
-      <!-- place footer here -->
+    <footer class="container-fluid">
+<div class="row">
+  <nav class="nav justify-content-center flex-row">
+    <a class="nav-link text-decoration-none text-secondary text-light my-3" href="#" aria-current="page">Pregunta Frecuentes</a>
+    <a class="nav-link text-decoration-none text-secondary text-light my-3" href="#">Contáctanos</a>
+    <a class="nav-link text-decoration-none text-secondary text-light my-3" href="#">Prensa</a>
+    <a class="nav-link text-decoration-none text-secondary text-light my-3" href="#">Conferencias</a>
+    <a class="nav-link text-decoration-none text-secondary text-light my-3" href="#">Términos y condiciones</a>
+    <a class="nav-link text-decoration-none text-secondary text-light my-3" href="#">Privacidad</a>
+    <a class="nav-link text-decoration-none text-secondary text-light my-3" href="#">Estudiantes</a>
+  </nav>
+</div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script

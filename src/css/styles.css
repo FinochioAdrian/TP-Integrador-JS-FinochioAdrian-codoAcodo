@@ -1,3 +1,11 @@
+.navbar {
+  background-color: #353A40;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
 .conferencia {
   height: 87vh;
   width: 100%;
@@ -27,7 +35,7 @@
 }
 
 .oradores {
-  height: 100vh;
+  margin-bottom: 3rem;
 }
 .oradores__card__text {
   font-size: 0.8rem;
@@ -60,6 +68,7 @@
 }
 
 .placeTime__viewImage {
+  min-height: 200px;
   background-image: url("../../src/img/honolulu.jpg");
   background-position: center;
   background-size: cover;
@@ -70,6 +79,15 @@
   background-color: #353A40;
   color: white;
   padding: 10px;
+}
+
+.btn-enviar {
+  background-color: #96C93E;
+  color: white;
+}
+
+footer {
+  background-color: #163D54;
 }
 
 /*# sourceMappingURL=styles.css.map */
