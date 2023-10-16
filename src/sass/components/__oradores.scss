@@ -1,0 +1,41 @@
+.oradores {
+    height: 100vh;
+
+
+    &__card {
+
+        &__text {
+
+            font-size: 0.8rem;
+            line-height: 1.5rem;
+
+        }
+    }
+
+
+    &__label {
+       
+        border-radius: 4px;
+        padding: 1px 5px; 
+        font-size: 0.7rem;
+        font-weight: 700;
+
+    }
+
+}
+
+.label--js{
+    background-color: #FFC207;
+}
+.label--react{
+    background-color: #16A2B9;
+    color: white
+}
+.label--negocios{
+    background-color: #6D7A83;
+    color: white
+}
+.label--startups{
+    background-color: #D9353E;
+    color: white
+}

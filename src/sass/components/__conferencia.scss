@@ -1,0 +1,37 @@
+.conferencia { 
+    height: 87vh;
+    width: 100%;
+    background-image: url('../img/ba1.jpg');
+    
+    background-position: center;
+    background-size: cover;
+    
+    
+     &__backgroundfilter {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        
+        backdrop-filter: brightness(0.75);
+        
+     }
+    
+    &__details{
+        width: 70%;
+        margin: auto;
+        color: white;
+        
+        font-weight: 600;
+        text-align: end;
+
+        & h1 {
+            font-size: 2rem ;
+        }
+        & p {
+            font-size: 1rem ;
+        }
+
+    }
+    
+    }

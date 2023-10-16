@@ -1,0 +1,62 @@
+.conferencia {
+  height: 87vh;
+  width: 100%;
+  background-image: url("../img/ba1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.conferencia__backgroundfilter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  backdrop-filter: brightness(0.75);
+}
+.conferencia__details {
+  width: 70%;
+  margin: auto;
+  color: white;
+  font-weight: 600;
+  text-align: end;
+}
+.conferencia__details h1 {
+  font-size: 2rem;
+}
+.conferencia__details p {
+  font-size: 1rem;
+}
+
+.oradores {
+  height: 100vh;
+}
+.oradores__card__text {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.oradores__label {
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.label--js {
+  background-color: #FFC207;
+}
+
+.label--react {
+  background-color: #16A2B9;
+  color: white;
+}
+
+.label--negocios {
+  background-color: #6D7A83;
+  color: white;
+}
+
+.label--startups {
+  background-color: #D9353E;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

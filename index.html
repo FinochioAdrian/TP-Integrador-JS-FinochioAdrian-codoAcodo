@@ -16,6 +16,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
 
   <body>
@@ -75,7 +76,102 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <!-- La Conferencia -->
+      <div class="container-fluid conferencia" id="conferencia">
+        <div class="conferencia__backgroundfilter">
+          <div
+            class="d-flex col-12 col-md-6 flex-column conferencia__containerDetails"
+          >
+            <div class="conferencia__details">
+              <h1>Conf Bs As</h1>
+              <p>
+                Bs As llega por primera vez a Argentina. Un evento para
+                compartir con nuestra comunidad el conocimiento y experiencia de
+                los expertos que están creando el futuro de internet. Ven a
+                conocer a miembros del evento, a otros estudiantes de Codo a
+                Codo y los oradores de primer nivel que tenemos para ti. Te
+                esperamos!
+              </p>
+              <div class="d-flex justify-content-end gap-2">
+                <button type="button" class="btn btn-outline-light">
+                  Quiero ser orador
+                </button>
+                <button type="button" class="btn btn-success">
+                  Comprar tickets
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Oradores -->
+      <div class="cotainer-fluid oradores">
+        <div class="row text-center my-2">
+          <p class="mb-1 text-secondary"> CONOCE A LOS</p>
+          <h2 class="">ORADORES</h2>
+        </div>
+        
+        <div
+          class="d-flex justify-content-center aling-items-center gap-md-5 oradores__container"
+        >
+          <div class="card col-3 oradores__card">
+            <img src="./src/img/steve.jpg" class="card-img-top" alt="..." />
+            <div class="card-body oradores__card__body">
+              <div class="oradores__labels">
+                <span class="oradores__label label--js">JavaScript</span>
+                <span class="oradores__label label--react">React</span>
+              </div>
+              <h5 class="card-title oradores__card__title mb-3">Steve Jobs</h5>
+              <p class="card-text oradores__card__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+                debitis quas. Modi ratione autem vitae consectetur ipsam
+                incidunt. Eius rem odio illum accusamus optio non velit eligendi
+                eveniet distinctio omnis. 
+              </p>
+              
+            </div>
+          </div>
+          <div class="card col-3 oradores__card">
+            <img src="./src/img/bill.jpg" class="card-img-top" alt="..." />
+            
+            <div class="card-body oradores__card__body">
+              <div class="oradores__labels">
+                <span class="oradores__label label--js">JavaScript</span>
+                <span class="oradores__label label--react">React</span>
+              </div>
+              <h5 class="card-title oradores__card__title mb-3">Bill Gates</h5>
+              <p class="card-text oradores__card__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+                debitis quas. Modi ratione autem vitae consectetur ipsam
+                incidunt. Eius rem odio illum accusamus optio non velit eligendi
+                eveniet distinctio omnis.  
+              </p>
+              
+            </div>
+          </div>
+          <div class="card col-3 oradores__card">
+            <img src="./src/img/ada.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body oradores__card__body">
+              <div class="oradores__labels">
+                <span class="oradores__label label--negocios">Negocios</span>
+                <span class="oradores__label label--startups">Startups</span>
+              </div>
+              <h5 class="card-title oradores__card__title mb-3">Ada Lovelace</h5>
+              <p class="card-text oradores__card__text ">
+                
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+                debitis quas. Modi ratione autem vitae consectetur ipsam
+                incidunt. Eius rem odio illum accusamus optio non velit eligendi
+                eveniet distinctio omnis. 
+              </p>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </main>
     <footer>
       <!-- place footer here -->
     </footer>
