@@ -35,3 +35,27 @@
     }
     
     }
+
+
+    /* CAROUSEL
+-------------------------------------------------- */
+
+.bg-carousel-ba1 { background-image: url(../img/ba1-min.jpg); }
+.bg-carousel-ba2 { background-image: url(../img/ba2-min.jpg); }
+.bg-carousel-ba3 { background-image: url(../img/ba3-min.jpg); }
+
+.carousel-item {
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item svg { opacity: .5; }
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 37rem;
+  min-height: 95vh;
+}
