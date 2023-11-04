@@ -1,9 +1,8 @@
 .placeTime{
-   
+    border: red solid 1px;
     
 
     &__viewImage{
-        min-height: 200px;
         background-image: url('../../src/img/honolulu.jpg');
         background-position: center;
         background-size: cover;
